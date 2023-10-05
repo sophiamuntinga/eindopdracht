@@ -6,12 +6,10 @@
 }
 
 header {
-    /* background-image: url(/images-links/bloemen_product_header.png); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    padding: 11em 0em;
+    /* padding-bottom: 5em; */
     position: relative;
     margin-bottom: 5em;
+    margin-top: 5em;
 }
 /*comments*/
 a {
@@ -25,7 +23,7 @@ a:visited {
 }
 
 body nav{
-    position: absolute;
+    /* position: absolute; */
     bottom: -3em;
     left: 0;
     width: 100%;
@@ -58,22 +56,24 @@ nav ul li {
 h1 {
     text-align: center;
     font-family: cursive;
-    font-size: 90px;
-    letter-spacing: 15px;
+    font-size: 5em;
+    letter-spacing: 0.1em;
 }
 
 main {
-    padding-left: 50px;
+    /* padding-left: 50px;
     padding-right: 50px;
-    margin-bottom: 50px;
-    margin-top: 15em;
+    margin-bottom: 50px; */
+    margin-top: 10em;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 
-main p {
+/* main p {
     margin-bottom: 50px;
-}
+} */
 
 main h2, p {
     display: flex;
@@ -92,6 +92,12 @@ article{
     justify-content: flex-start;
     /* align-items: flex-start; */
 }
+
+article nav ul li {
+    display: flex;
+    flex-direction: column;
+
+}
 div {
     display: flex;
     /* justify-content: flex-end; */
@@ -103,48 +109,11 @@ footer {
 }
 
 
-
-
-/* header nav ul li:hover {
-    background-color: black;
-    /* background-image: none; */
-/* } */
 header nav ul li:hover a{
     color: white;
     background-color: black;
     transition: 0.5s;
 }
-
-/* nav ul li:nth-of-type(1){ */
-    /* background-image: url(/images-links/bloemen_product_header.png); */
-    /* background-size: contain; */
-/* } */
-
-
-
-/* nav {
-    text-decoration: none;
-} */
-/* nav {
-    margin: 2em;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    padding: 1em 4em;
-}
-a:visited {
-    text-decoration: none;
-    color: white;
-}
-
-body nav a {
-    color: white;
-    background-color: black;
-    transition: 0.5s;
-    padding: 1em;
-} */
 
 header h1 {
     text-align: center;
