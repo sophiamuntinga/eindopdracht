@@ -6,42 +6,71 @@
 }
 
 /* navigatie balk */
-/* header {
-    position: relative; 
-
-} */
-
-/* header nav {
-    bottom: -3em;
-    left: 0;
-    width: 100%;
-    text-decoration: none;
-} */
-a {
-    text-decoration: none;
-    color: black;
-    padding: 1em 4em;
+header nav ul li:hover a{
+    color: white;
+    background-color: #778991;
+    transition: 0.5s;
 }
-/* a:visited {
+header nav ul li:active a{
+    color: white;
+    background-color: #778991;
+    transition: 0.5s;
+}
+
+header a {
     text-decoration: none;
     color: black;
-} */
+    background-color: white;
+    padding: 10%;
+    width: 100%;
+    font-size: 1.2em;
+}
  
-nav ul{
-    /* margin-bottom: 5em; */
+header nav ul{
     margin-top: 5em;
-    /* list-style-type: none; */
+    padding: 2%;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    background-color: white;
 }
 nav ul li {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    border-bottom: 0.2em solid black;
-    border-left: 0.2em solid black;
+    border-bottom: 0.2em solid #96b5bf;
+    border-left: 0.2em solid #96b5bf;
+    width: 15%;
 }
 
+/* tekeningen van bloemen */
+img {
+    max-width: 20%;
+}
+
+img:hover {
+    animation-direction: normal;
+}
+
+.decoration {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* main */
+
+p {
+    font-size: 1.2em;
+}
+main {
+    margin-top: 10%;
+    margin-bottom: 15%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* flower shower titel */
 h1 {
     text-align: center;
     font-family: cursive;
@@ -49,57 +78,63 @@ h1 {
     letter-spacing: 0.1em;
 }
 
-main {
-    margin-top: 10em;
+/* artikels op paginas */
+article {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
-
-main h2, p {
-    display: flex;
-    padding: 20px
-}
-
-article{
+section {
     width: 70%;
+    flex-direction: column;
+    background-color: #778991;
+    margin: 3%;
+    padding: 5%;
+    border-radius: 1em;
+}
+
+h2, p {
+    background-color: #778991;
+}
+
+section div {
+    display: flex;
+}
+
+
+/* weetjes! */
+article section ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #778991;
 }
 
-article nav ul li {
-    display: flex;
-    flex-direction: column;
-
-}
-div {
-    display: flex;
-    width: 100%;
+article section li{
+    background-color: #778991;
+    text-align: start;
+    font-size: 1.2em;
 }
 
-footer {
-    padding: 50px;
+/* links naar bronnen */
+a {
+    background-color: #778991;
+    color: black;
 }
 
-
-header nav ul li:hover a{
+a:hover {
     color: white;
-    background-color: black;
-    transition: 0.5s;
+    transition: o.5s;
 }
 
-header h1 {
-    text-align: center;
-    margin: 1em;
-
+/* footer */
+footer p {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1% 2%;
 }
 
-main h2 {
-    text-align: center;
-}
+
+
+
 
