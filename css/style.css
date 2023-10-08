@@ -25,21 +25,22 @@ header a {
     width: 100%;
     font-size: 1.2em;
 }
- 
-header nav ul{
-    margin-top: 5em;
-    padding: 2%;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    background-color: white;
-}
 nav ul li {
     display: flex;
     border-bottom: 0.2em solid #96b5bf;
     border-left: 0.2em solid #96b5bf;
     width: 15%;
 }
+ 
+header nav ul{
+    margin-top: 4%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+}
+
 
 /* tekeningen van bloemen */
 img {
