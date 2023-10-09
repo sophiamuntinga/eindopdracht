@@ -4,7 +4,8 @@ Klas: oker
 Schooljaar: 1
 
 LINK NAAR LIVE WEBSITE
-http://www.mijnlivewebsite.nl
+https://sophiamuntinga.github.io/eindopdracht/
+
 
 BRONVERMELDING
 1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
